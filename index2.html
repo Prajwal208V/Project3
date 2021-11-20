@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Todo App UI Web</title>
     <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="style.css">
     <script src="all.js"></script>
 </head>
 <body>
-    <div id="main-continer">
-        <div id="page2-header"><i class="fas fa-arrow-alt-circle-left" id="page2-backicon"></i>Trip to Paris</div>
-        <div class="page2-box"><h3>Trip to Paris</h3><hr><h4>Completed Task</h4><input type="checkbox" value="completed" name="pending-value"><p>Pending Task</p><i class="fas fa-plus-circle" id="page2-plusicon"></i></div> 
-        <div id="page-linker">
-            <a href="index.html"><i class="fas fa-chevron-left linker-button"></i></a>
-            <a href="index.html"><i class="fas fa-home linker-button"></i></a>
-            <a href="index3.html"><i class="fas fa-chevron-right linker-button"></i></a>
-        </div>
+    <div class="continer">
+                <header class="index2_header">
+                    <hr id="left_hr">
+                    <p>Trip to Paris</p>
+                    <hr id="right_hr">
+                </header>
+                <div id="back">
+                    <a href="index.html"><i class="fas fa-arrow-circle-left back_button"></i></a><sapan class="text_back">Back</sapan>
+                </div>
+            <div id="index2_box">
+                <p>Trip to Paris</p>
+                <hr>
+                <p>&nbsp Completed Task</p>
+                <div><input type="checkbox"><span>Pending Task</span></div>
+                <a href="index3.html"><i class="fas fa-plus-circle index2_plus"></i></a>
+            </div>
     </div>
+    
 </body>
 </html>
