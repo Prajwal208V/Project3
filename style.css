@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:2rem 0 1.1rem 0;
+    margin:2rem 4.5rem 1.1rem 4.5rem;
 }
 #left_index_header{
     font-size:4rem;
@@ -125,7 +125,7 @@ body{
     }
     #index_continer2{
         width:100vw;
-        height:68vh;
+        height:100vh;
         display:flex;
         flex-direction:column;
         margin:0 0 0 0;
